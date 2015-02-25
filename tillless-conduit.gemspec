@@ -20,9 +20,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  # spec.add_dependency 'cocoapods',               '~> 0.35.0'
-  spec.add_dependency 'cocoapods',               '~> 0.36.0.beta.2'
-  spec.add_dependency 'xcodeproj'                #, '~> 0.21.2'
+  # spec.add_dependency 'cocoapods',               #'~> 0.35.0'
+  spec.add_dependency 'cocoapods'                , '~> 0.36.0.rc.1'
+  spec.add_dependency 'xcodeproj'                #, '~> 0.22.0'
   spec.add_dependency 'motion-cocoapods'         #, '~> 1.7.0'
   spec.add_dependency 'bubble-wrap'              #, '~> 1.7.1'
   spec.add_dependency 'ib'                       #, '~> 0.7.1'
