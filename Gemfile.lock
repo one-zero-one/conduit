@@ -14,7 +14,7 @@ PATH
 PATH
   remote: /Users/matts/Devel/ventures/tillless4/device/ios/common/tillless-restikle
   specs:
-    restikle (0.0.1)
+    tillless-restikle (0.0.1)
       activesupport
       bubble-wrap
       cdq
@@ -105,6 +105,6 @@ DEPENDENCIES
   bundler
   motion_print
   rake
-  restikle!
   tillless-conduit!
+  tillless-restikle!
   webstub
