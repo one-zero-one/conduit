@@ -1,33 +1,3 @@
-# CMS Models
-
-class CmsBlock < CDQManagedObject
-end
-
-class CmsCategory < CDQManagedObject
-end
-
-class CmsCategorization < CDQManagedObject
-end
-
-class CmsFile < CDQManagedObject
-end
-
-class CmsLayout < CDQManagedObject
-end
-
-class CmsPage < CDQManagedObject
-end
-
-class CmsRevision < CDQManagedObject
-end
-
-class CmsSite < CDQManagedObject
-end
-
-class CmsSnippet < CDQManagedObject
-end
-
-
 # Spree Commerce Models
 
 class FriendlyIdSlug < CDQManagedObject
